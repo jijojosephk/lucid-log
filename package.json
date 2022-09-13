@@ -1,0 +1,28 @@
+{
+  "name": "lucid-log",
+  "version": "0.0.1",
+  "description": "A simple logger for nodejs applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jijojosephk/lucid-log.git"
+  },
+  "keywords": [
+    "log",
+    "nodejs",
+    "console",
+    "color"
+  ],
+  "author": "Jijo Joseph <jijojosephk@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jijojosephk/lucid-log/issues"
+  },
+  "homepage": "https://github.com/jijojosephk/lucid-log#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
