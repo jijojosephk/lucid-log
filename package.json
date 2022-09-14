@@ -1,6 +1,6 @@
 {
   "name": "lucid-log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple logger for nodejs applications",
   "main": "index.js",
   "scripts": {

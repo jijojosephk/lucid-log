@@ -88,9 +88,9 @@ class LucidLog {
  * @param {{title: string, titleBackground: chalk.Chalk, titleForeground: chalk.Chalk, textBackground: chalk.Chalk, textForeground: chalk.Chalk, options: LucidLogOptions, level:string}} options
  */
 function createConsoleWriter(options) {
-	return (text) => {
+	return (...data) => {
 		if (isLevelMatching(options.options.levels, options.level)) {
-			console.log(options.titleBackground(options.titleForeground(options.title)), options.textForeground(text));
+			console.log(options.titleBackground(options.titleForeground(options.title)), options.textForeground(data));
 		}
 	}
 }
