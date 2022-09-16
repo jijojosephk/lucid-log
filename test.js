@@ -1,5 +1,8 @@
 const { LucidLog } = require('.');
 const logger = new LucidLog({
-	levels: ['info','error','debug','warn']
+	levels: ['error','warn']
 });
-logger.debug('Test',["Hello","how are you"]);
+logger.error('Unauthorized\n');
+logger.debug('Welcome!\n');
+logger.warn('Some functions might not work\n');
+logger.info('You are using the latest version\n');
